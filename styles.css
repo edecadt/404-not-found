@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter&family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter&family=Montserrat&family=Space+Mono&display=swap");
+
+header {
+  width: 133px;
+  height: 25px;
+  padding-left: 77px;
+  padding-top: 40px;
+}
+
+header h1 {
+  color: #333;
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.92px;
+  text-transform: uppercase;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+section img {
+  width: 539px;
+  height: 447px;
+}
+
+section h1 {
+  width: 586px;
+  color: #333;
+  font-family: Space Mono;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.24px;
+}
+
+section p {
+  width: 381px;
+  color: #4f4f4f;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.84px;
+}
+
+section button {
+  width: 216px;
+  height: 68px;
+  flex-shrink: 0;
+  background: #333;
+  color: #fff;
+  font-family: Space Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.49px;
+  text-transform: uppercase;
+}
+
+section button:hover {
+  background: #000;
+}
+
+footer {
+  color: #bdbdbd;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+footer a {
+  color: #bdbdbd;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
